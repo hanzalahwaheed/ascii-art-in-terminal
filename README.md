@@ -1,8 +1,20 @@
-# Luffy Art in Zsh
+# ASCII Art Collection
 
-## Steps:
+A collection of ASCII art for terminal customization.
 
-1. Add this cofig your to the top of your `.zshrc` to show some ASCII art when you open a new terminal window.
+## Setup Instructions
+
+### 1. Create directory
+Create a dedicated folder for your ASCII art:
+```bash
+mkdir -p ~/.config/zsh/art
+```
+
+### 2. Add art file
+Save your ASCII art (e.g., `luffy.txt`) into the created directory.
+
+### 3. Update configuration
+Add the following function and configuration to the top of your `.zshrc` file:
 
 ```bash
 center_file() {
@@ -34,10 +46,4 @@ if [[ "$TERM_PROGRAM" == "iTerm.app" && -z "$ZSH_BANNER_SHOWN" ]]; then
 fi
 ```
 
-2. create a folder using `mkdir .config/zsh/art`
-
-3. add a file called `luffy.txt`
-
-> *Minimal yet aesthetic. You can add more such ASCII artworks to this repository*
-
-Lastly, **the ONE PIECE is REAL!**
+Contributions are welcome. You can add more ASCII artworks to this repository.
