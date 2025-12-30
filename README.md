@@ -14,7 +14,8 @@ mkdir -p ~/.config/zsh/art
 Save your ASCII art (e.g., `luffy.txt`) into the created directory.
 
 ### 3. Update configuration
-Add the following function and configuration to the top of your `.zshrc` file:
+- Add the following function and configuration to the top of your `.zshrc` file.
+- Also make sure you enter the file path in the function correctly.
 
 ```bash
 center_file() {
