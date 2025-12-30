@@ -1,4 +1,4 @@
-# ASCII Art Collection
+# ASCII Art in Terminal
 
 A collection of ASCII art for terminal customization.
 
